@@ -3,8 +3,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-	title: "My Site",
-	tagline: "Dinosaurs are cool",
+	title: "لاگ‌پشت",
+	tagline: "اپلیکیشنی برای مدیریت شخصی مالی",
 	url: "https://your-docusaurus-test-site.com",
 	baseUrl: "/",
 	trailingSlash: false,
@@ -15,17 +15,25 @@ module.exports = {
 	projectName: "docusaurus", // Usually your repo name.
 	i18n: { defaultLocale: "fa", locales: ["fa"] },
 	themeConfig: {
+		colorMode: {
+			// "light" | "dark"
+			defaultMode: "light",
+			// Hides the switch in the navbar
+			// Useful if you want to support a single color mode
+			disableSwitch: true,
+			respectPrefersColorScheme: true,
+		},
 		navbar: {
 			title: "لاگ‌پشت",
 			logo: {
 				alt: "My Site Logo",
 				src: "img/logo.svg",
 			},
-			items: [{ to: "/blog", label: "وبلاگ", position: "right" }],
+			items: [{ to: "/blog", label: "وبلاگ", position: "left" }],
 		},
 		footer: {
 			style: "dark",
-			copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+			copyright: `کپی‌رایت این سایت مطلق است به سایت لاگ‌پشت ، سال ‌${new Date().getFullYear()}`,
 		},
 		prism: {
 			theme: lightCodeTheme,
