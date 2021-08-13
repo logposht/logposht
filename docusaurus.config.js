@@ -16,69 +16,15 @@ module.exports = {
 	i18n: { defaultLocale: "fa", locales: ["fa"] },
 	themeConfig: {
 		navbar: {
-			title: "به لاگ پشت خوش آمدید",
+			title: "لاگ‌پشت",
 			logo: {
 				alt: "My Site Logo",
 				src: "img/logo.svg",
 			},
-			items: [
-				{
-					type: "doc",
-					docId: "intro",
-					position: "right",
-					label: "Tutorial",
-				},
-				{ to: "/blog", label: "Blog", position: "right" },
-				{
-					href: "https://github.com/facebook/docusaurus",
-					label: "GitHub",
-					position: "left",
-				},
-			],
+			items: [{ to: "/blog", label: "وبلاگ", position: "right" }],
 		},
 		footer: {
-			style: "light",
-			links: [
-				{
-					title: "Docs",
-					items: [
-						{
-							label: "Tutorial",
-							to: "/docs/intro",
-						},
-					],
-				},
-				{
-					title: "Community",
-					items: [
-						{
-							label: "Stack Overflow",
-							href: "https://stackoverflow.com/questions/tagged/docusaurus",
-						},
-						{
-							label: "Discord",
-							href: "https://discordapp.com/invite/docusaurus",
-						},
-						{
-							label: "Twitter",
-							href: "https://twitter.com/docusaurus",
-						},
-					],
-				},
-				{
-					title: "More",
-					items: [
-						{
-							label: "Blog",
-							to: "/blog",
-						},
-						{
-							label: "GitHub",
-							href: "https://github.com/facebook/docusaurus",
-						},
-					],
-				},
-			],
+			style: "dark",
 			copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
 		},
 		prism: {
