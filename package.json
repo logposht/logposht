@@ -7,7 +7,7 @@
     "start": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
-    "deploy": "GIT_USER=ALYREZA docusaurus deploy",
+    "deploy": "GIT_USER=alyreza USE_SSH=true docusaurus deploy",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "up": "git push -u origin --all && git push origin --tags",
