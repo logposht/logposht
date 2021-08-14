@@ -8,7 +8,7 @@ module.exports = {
   trailingSlash: false,
   url: "https://logposht.github.io", // Your website URL
   baseUrl: "/",
-  projectName: "logposht.github.io",
+  projectName: "logposht",
   organizationName: "logposht",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
