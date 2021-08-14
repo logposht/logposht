@@ -7,7 +7,7 @@ module.exports = {
   tagline: "اپلیکیشنی برای مدیریت شخصی مالی",
   trailingSlash: false,
   url: "https://logposht.github.io", // Your website URL
-  baseUrl: "/logposht/",
+  baseUrl: "/",
   projectName: "logposht",
   organizationName: "logposht",
   onBrokenLinks: "throw",
