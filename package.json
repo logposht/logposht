@@ -10,6 +10,7 @@
     "deploy": "GIT_USER=ALYREZA docusaurus deploy",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
+    "up": "git push -u origin --all && git push origin --tags",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids"
   },
