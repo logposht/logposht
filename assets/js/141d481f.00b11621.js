@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunklogposht_site=self.webpackChunklogposht_site||[]).push([[753],{9715:function(l){l.exports=JSON.parse('{"allTagsPath":"/logposht/blog/tags","slug":"hello","name":"hello","count":1,"permalink":"/logposht/blog/tags/hello"}')}}]);
