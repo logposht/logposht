@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunklogposht_site=self.webpackChunklogposht_site||[]).push([[377],{2989:function(e){e.exports=JSON.parse('{"permalink":"/logposht/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"previousPage":null,"nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
