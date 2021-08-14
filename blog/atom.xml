@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://logposht.ir/logposht/blog</id>
+    <id>https://logposht.ir/blog</id>
     <title>لاگ‌پشت Blog</title>
     <updated>2021-05-21T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://logposht.ir/logposht/blog"/>
+    <link rel="alternate" href="https://logposht.ir/blog"/>
     <subtitle>لاگ‌پشت Blog</subtitle>
-    <icon>https://logposht.ir/logposht/img/favicon.ico</icon>
+    <icon>https://logposht.ir/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[سلام دنیا]]></title>
         <id>سلام دنیا</id>
-        <link href="https://logposht.ir/logposht/blog/2021/05/21/new-one"/>
+        <link href="https://logposht.ir/blog/2021/05/21/new-one"/>
         <updated>2021-05-21T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[در این پست قصد داریم برای شما بیشتر توضیح بدیم در ادامه]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello]]></title>
         <id>hello-world</id>
-        <link href="https://logposht.ir/logposht/blog/hello-world"/>
+        <link href="https://logposht.ir/blog/hello-world"/>
         <updated>2019-05-29T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Welcome to this blog. This blog is created with Docusaurus 2.]]></summary>
     </entry>
