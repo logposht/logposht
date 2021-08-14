@@ -8,11 +8,13 @@ module.exports = {
   trailingSlash: false,
   url: "https://logposht.github.io", // Your website URL
   baseUrl: "/",
+  titleDelimiter: "🐢",
   projectName: "logposht",
   organizationName: "logposht",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
+  noIndex: true,
   i18n: { defaultLocale: "fa", locales: ["fa"] },
   themeConfig: {
     colorMode: {
