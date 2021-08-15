@@ -16,7 +16,7 @@
   --ifm-color-primary-lightest: #23aaa8;
   --ifm-heading-color: #1b8381;
   --ifm-code-font-size: 95%;
-  --ifm-heading-font-family: Vazir; /**/
+  --ifm-heading-font-family: Rubik, Samim, Tahoma;
 }
 .button.button--secondary {
   color: #146665;
@@ -33,38 +33,54 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
   --ifm-heading-color: var(--ifm-color-primary-lightest);
 }
 body {
-  font-family: Vazir;
+  font-family: var(--ifm-heading-font-family);
 }
+
 @font-face {
-  font-family: Vazir;
-  src: url("/fonts/vazir/Vazir-Regular-FD-UI.eot");
-  src: url("/fonts/vazir/Vazir-Regular-FD-UI.eot?#iefix")
-      format("embedded-opentype"),
-    url("/fonts/vazir/Vazir-Regular-FD-UI.woff2") format("woff2"),
-    url("/fonts/vazir/Vazir-Regular-FD-UI.woff") format("woff"),
-    url("/fonts/vazir/Vazir-Regular-FD-UI.ttf") format("truetype");
+  font-family: Samim;
+  src: url("/fonts/samim/Samim-WOL.eot");
+  src: url("/fonts/samim/Samim-WOL.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/samim/Samim-WOL.woff2") format("woff2"),
+    url("/fonts/samim/Samim-WOL.woff") format("woff"),
+    url("/fonts/samim/Samim-WOL.ttf") format("truetype");
   font-weight: normal;
-  font-style: normal;
 }
+
 @font-face {
-  font-family: Vazir;
-  src: url("/fonts/vazir/Vazir-Bold-FD-UI.eot");
-  src: url("/fonts/vazir/Vazir-Bold-FD-UI.eot?#iefix")
-      format("embedded-opentype"),
-    url("/fonts/vazir/Vazir-Bold-FD-UI.woff2") format("woff2"),
-    url("/fonts/vazir/Vazir-Bold-FD-UI.woff") format("woff"),
-    url("/fonts/vazir/Vazir-Bold-FD-UI.ttf") format("truetype");
+  font-family: Samim;
+  src: url("/fonts/samim/Samim-Bold-WOL.eot");
+  src: url("/fonts/samim/Samim-Bold-WOL.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/samim/Samim-Bold-WOL.woff2") format("woff2"),
+    url("/fonts/samim/Samim-Bold-WOL.woff") format("woff"),
+    url("/fonts/samim/Samim-Bold-WOL.ttf") format("truetype");
   font-weight: bold;
-  font-style: normal;
 }
+
 @font-face {
-  font-family: Vazir;
-  src: url("/fonts/vazir/Vazir-Light-FD-UI.eot");
-  src: url("/fonts/vazir/Vazir-Light-FD-UI.eot?#iefix")
+  font-family: Samim;
+  src: url("/fonts/samim/Samim-Medium-WOL.eot");
+  src: url("/fonts/samim/Samim-Medium-WOL.eot?#iefix")
       format("embedded-opentype"),
-    url("/fonts/vazir/Vazir-Light-FD-UI.woff2") format("woff2"),
-    url("/fonts/vazir/Vazir-Light-FD-UI.woff") format("woff"),
-    url("/fonts/vazir/Vazir-Light-FD-UI.ttf") format("truetype");
+    url("/fonts/samim/Samim-Medium-WOL.woff2") format("woff2"),
+    url("/fonts/samim/Samim-Medium-WOL.woff") format("woff"),
+    url("/fonts/samim/Samim-Medium-WOL.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Rubik;
+  src: url("/fonts/rubik/Rubik-Light.ttf") format("truetype");
   font-weight: 300;
-  font-style: normal;
+}
+
+@font-face {
+  font-family: Rubik;
+  src: url("/fonts/rubik/Rubik-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Rubik;
+  src: url("/fonts/rubik/Rubik-Bold.ttf") format("truetype");
+  font-weight: bold;
 }
