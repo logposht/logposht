@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklogposht_site=self.webpackChunklogposht_site||[]).push([[535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\u0633\u0644\u0627\u0645 \u062f\u0646\u06cc\u0627","permalink":"/blog/2021/05/21/new-one"},{"title":"Hello","permalink":"/blog/hello-world"}]}')}}]);
