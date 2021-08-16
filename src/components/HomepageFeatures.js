@@ -32,6 +32,29 @@ const FeatureList = [
 			</>
 		),
 	},
+	{
+		title: "قدرت گرفته بوسیله ری‌اکت",
+		Svg: require("../../static/img/undraw_docusaurus_react.svg").default,
+		description: (
+			<>
+				ری‌اکت یکی از بهترین چیزایی هست که ما می توانیم درباره ی آن مطالعه کنیم
+			</>
+		),
+	},
+	{
+		title: "قدرت گرفته بوسیله ری‌اکت",
+		Svg: require("../../static/img/undraw_docusaurus_react.svg").default,
+		description: (
+			<>
+				ری‌اکت یکی از بهترین چیزایی هست که ما می توانیم درباره ی آن مطالعه کنیم
+			</>
+		),
+	},
+	{
+		title: "سادگی در طراحی",
+		Svg: require("../../static/img/undraw/simple.svg").default,
+		description: <>ساده طراحی شده است</>,
+	},
 ];
 
 function Feature({ Svg, title, description }) {
