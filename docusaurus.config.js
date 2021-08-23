@@ -36,7 +36,6 @@ module.exports = {
 				alt: "My Site Logo",
 				src: "img/logo.svg",
 			},
-			items: [{ to: "/blog", label: "وبلاگ", position: "left" }],
 		},
 		footer: {
 			style: "dark",
@@ -45,6 +44,7 @@ module.exports = {
 		prism: {
 			theme: lightCodeTheme,
 			darkTheme: darkCodeTheme,
+			defaultLanguage: "shell",
 		},
 	},
 	presets: [
